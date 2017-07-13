@@ -9,12 +9,6 @@ management:
     enabled: false
     
 jwt.secret.key: abc$$123$      
-    
-endpoints:
-  metrics:
-    sensitive: true
-    enabled: true
-  health:
-    sensitive: true
-    enabled: true
-  enabled: false           
+
+public.urls: /env,/health,/metrics,/info
+          
