@@ -7,3 +7,11 @@ spring:
     password: venkat 
     hikari:
       pool-name: DemoHikariPool
+      
+---      
+      
+logging:
+  level:
+    com.demo: INFO      
+      
+      

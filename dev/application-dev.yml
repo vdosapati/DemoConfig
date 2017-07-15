@@ -10,5 +10,7 @@ management:
     
 jwt.secret.key: abc$$123$      
 
-public.urls: /env,/health
+public.urls: /env,/health,/metrics,/info,/refresh
+
+
           
