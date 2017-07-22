@@ -6,3 +6,15 @@ security:
   user:
     name: admin
     password: admin    
+    
+---    
+
+#Ribbon config
+demoApp:
+  ribbon:
+    ConnectionTimeout: 300000
+    DeploymentContextBasedVipAddress: demoApp
+    NIWSServerListClassName: com.netflix.niws.loadbalancer.DiscoveryEnabledNIWSServerList
+    ReadTimeout: 300000
+    ServerListRefreshInterval: 6000
+ 
