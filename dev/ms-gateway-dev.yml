@@ -1,1 +1,4 @@
 acctms.openAccount: http://account-ms/account/open
+transactionms.details: http://transaction-ms/transaction/details
+acctms.details: http://account-ms/account/details
+transactionms.total-accounts: http://transaction-ms/transaction/total-accounts
